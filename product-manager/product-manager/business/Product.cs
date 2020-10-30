@@ -17,6 +17,8 @@ namespace product_manager.business {
             this.price = price;
         }
 
-
+        public override string ToString() {
+            return "Product:  "+code+", "+description+", "+price;
+        }
     }
 }

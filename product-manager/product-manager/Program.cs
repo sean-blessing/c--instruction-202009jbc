@@ -13,7 +13,7 @@ namespace product_manager {
 
             Product p2 = new Product(".net", "Murach's .Net", 59.00);
 
-
+            Console.WriteLine("p2 = "+p2);
 
         }
     }
