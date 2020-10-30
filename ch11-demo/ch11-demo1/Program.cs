@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ch11_demo1 {
     class Program {
@@ -10,6 +11,8 @@ namespace ch11_demo1 {
             prices[0] = 11.99;
             prices[1] = 55.99;
             prices[2] = 2.99;
+            List<String> names = new List<String>();
+            names.
 
             foreach (int n in nbrs) {
                 Console.WriteLine(n);
